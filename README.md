@@ -13,7 +13,6 @@
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Running an app](#running-an-app)
-- [Project Structure](#project-structure)
 
 ## Getting Started
 ### Installation
@@ -85,20 +84,4 @@ Make sure you have a C++17 compiler (`g++`), `make`, and the `raylib` library in
 ### Linux/ macOS
    ```bash
    ./game
-   ```
-
-## Project Structure
-
-   ```bash
-   alien-hunt/
-├── Font/                # Font files used for in-game text rendering
-├── Graphics/            # Sprite and texture assets (player, aliens, backgrounds, etc.)
-├── readmeAssets/        # Images used only in README (screenshots, banners)
-├── src/                 # C++ source files containing core game logic
-├── game/                # Build output or runtime directory for executable and assets
-├── highscore.txt        # Stores player’s best score (read/write at runtime)
-├── Makefile             # Build script to compile and link the project using Raylib
-├── .gitignore           # Specifies which files/folders Git should ignore
-├── README.md            # Project documentation and setup instructions
-├── preview.jpg          # Game preview image shown in README
    ```
